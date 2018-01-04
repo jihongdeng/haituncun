@@ -1,0 +1,1 @@
+"use strict";define(["jquery","cookie"],function(e){e.ajax("/html/include/header.html").done(function(o){e(".header").html(o)}).done(function(){}),e(".footer").load("/html/include/footer.html")});
