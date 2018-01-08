@@ -1,0 +1,270 @@
+{
+	"res_code" : 0,
+	"res_error" : "",
+	"res_body" : {
+		"data" : [
+			{
+				"title":"母婴用品", "icon":"muyinyp","color":"#ff5555",
+				"trademark_title":"热门品牌",
+				"href":"http://www.haituncun.com/ymuyin/",
+				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/muyin160513.jpg",
+				
+				"trademark_list" : [
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MYYP_01160513.jpg","href":"http://www.haituncun.com/ymuyin/f-brand1260.html"},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MYYP_02160513.jpg","href":"http://www.haituncun.com/ymuyin/f-brand935.html"},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MYYP_03160513.jpg","href":"http://www.haituncun.com/ymuyin/f-brand923.html"},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MYYP_04160513.jpg","href":"http://www.haituncun.com/ymuyin/f-brand922.html"},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MYYP_05160513.jpg","href":"http://www.haituncun.com/ymuyin/f-brand966.html"},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MYYP_06160513.jpg","href":"http://www.haituncun.com/ymuyin/f-brand891.html"}
+				],
+				"dl":[ 
+						{"tit":"配方奶粉","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"营养辅食","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"洗护用品","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"}
+				],
+				"submenu":[
+							{	
+								"tit_left":"奶粉辅食","href_left":"",
+								"item_left":[
+												{"val":"配方奶粉","href":""},
+												{"val":"特殊奶粉","href":""},
+												{"val":"羊奶粉","href":""},
+												{"val":"米粉/菜奶","href":""},
+												{"val":"果泥/果汁","href":""},
+												{"val":"菜泥/肉泥","href":""},
+												{"val":"面条/粥","href":""},
+												{"val":"通心粉","href":""},
+												{"val":"宝宝零食","href":""}
+											],
+								"tit_right":"喂养用品","href_right":"",
+								"item_right":[
+												{"val":"奶瓶奶嘴","href":""},
+												{"val":"吸奶/储奶器","href":""},
+												{"val":"安抚用品","href":""},
+												{"val":"水壶水杯","href":""},
+												{"val":"碗盘叉勺","href":""},
+												{"val":"围兜","href":""},
+												{"val":"卫生消毒","href":""},
+												{"val":"磨牙饼干","href":""},
+												{"val":"乳垫","href":""}
+											]
+							},{
+								"tit_left":"奶粉辅食","href_left":"",
+								"item_left":[
+												{"val":"配方奶粉","href":""}
+											],
+								"tit_right":"喂养用品","href_right":"",
+								"item_right":[
+												{"val":"奶瓶奶嘴","href":""}
+											]
+							},{
+								"tit_left":"奶粉辅食","href_left":"",
+								"item_left":[
+												{"val":"配方奶粉","href":""}
+											],
+								"tit_right":"喂养用品","href_right":"",
+								"item_right":[
+												{"val":"奶瓶奶嘴","href":""}
+											]
+							},{
+								"tit_left":"奶粉辅食","href_left":"",
+								"item_left":[
+												{"val":"配方奶粉","href":""}
+											],
+								"tit_right":"喂养用品","href_right":"",
+								"item_right":[
+												{"val":"奶瓶奶嘴","href":""}
+											]
+							}
+
+				]
+				
+			},
+			{ 
+				"title":"营养保健", "icon":"yybaoj","color":"#66cc33",
+				"href":"http://www.haituncun.com/ymuyin/",
+				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/yinyang170314.jpg",
+				"trademark_title" : "热门品牌",
+				"trademark_list" : [
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/YYBJ_01160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/YYBJ_02160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/YYBJ_03160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/YYBJ_04160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/YYBJ_05160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/YYBJ_06160513.jpg","href":""}
+				],
+				"dl":[  
+						{"tit":"儿童营养","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"减肥瘦身","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"美容养颜","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"}
+					],
+				"submenu":[
+							{	
+								"tit_left":"营养健康","href_left":"",
+								"item_left":[
+												{"val":"配方奶粉","href":""}
+											],
+								"tit_right":"营养成分","href_right":"",
+								"item_right":[
+												{"tit":"配方奶粉","href":""}
+											]
+							}
+						  ]
+			},
+			{ 
+				"title":"美容药妆", "icon":"meiryz","color":"#ff44aa",
+				"href":"http://www.haituncun.com/ymuyin/",
+				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/meizhuang170309.jpg",
+				"trademark_title" : "热门品牌",
+				"trademark_list" : [
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MRYZ_01160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MRYZ_02160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MRYZ_03160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MRYZ_04160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MRYZ_05160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MRYZ_06160513.jpg","href":""}
+				],
+				"dl":[
+						{"tit":"卸妆洁面","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"补水保湿","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"个人彩妆","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"}
+					 ],
+				"submenu":[
+							{	
+								"tit_left":"面部护理","href_left":"",
+								"item_left":[
+												{"val":"配方奶粉","href":""}
+											],
+								"tit_right":"个人彩妆","href_right":"",
+								"item_right":[
+												{"tit":"配方奶粉","href":""}
+											]
+							}
+						  ]
+			},
+			{ 
+				"title":"个人护理", "icon":"grhuli","color":"#8833ee",
+				"href":"http://www.haituncun.com/ymuyin/",
+				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/gehu170314.jpg",
+				"trademark_title" : "热门品牌",
+				"trademark_list" : [
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/GRHL_01160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/GRHL_02160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/GRHL_03170314.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/GRHL_04170314.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/GRHL_05170314.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/GRHL_06170314.jpg","href":""}
+				],
+				"dl":[
+						{"tit":"洗发护发","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"淋浴用品","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"牙膏","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"}
+					 ],
+				"submenu":[
+							{	
+								"tit_left":"沐浴用品","href_left":"",
+								"item_left":[
+												{"val":"配方奶粉","href":""}
+											],
+								"tit_right":"洗发护发","href_right":"",
+								"item_right":[
+												{"tit":"配方奶粉","href":""}
+											]
+							}
+						  ]
+			},
+			{ 
+				"title":"家居厨卫", "icon":"jjchuwei","color":"#cc6644",
+				"href":"http://www.haituncun.com/ymuyin/",
+				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/chuwei170314.jpg",
+				"trademark_title" : "热门品牌",
+				"trademark_list" : [
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/JJCW_01160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/JJCW_02160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/JJCW_03170314.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/JJCW_04170314.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/JJCW_05160815.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/JJCW_06170314.jpg","href":""}
+				],
+				"dl":[
+						{"tit":"精品梳","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"滤水壶","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"清洁用品","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"}
+					 ],
+				"submenu":[
+							{	
+								"tit_left":"厨房用品","href_left":"",
+								"item_left":[
+												{"val":"配方奶粉","href":""}
+											],
+								"tit_right":"空气净化","href_right":"",
+								"item_right":[
+												{"tit":"配方奶粉","href":""}
+											]
+							}
+							
+						  ]
+			},
+			{ 
+				"title":"食品精选", "icon":"shipjx","color":"#ffaa33",
+				"href":"http://www.haituncun.com/ymuyin/",
+				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/shipin170314.jpg",
+				"trademark_title" : "热门品牌",
+				"trademark_list" : [
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/SPJX_01160513.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/SPJX_02170314.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/SPJX_03170314.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/SPJX_04170314.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/SPJX_05170314.jpg","href":""},
+						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/SPJX_06170314.jpg","href":""}
+				],
+				"dl":[
+						{"tit":"功能茶","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"果泥果汁","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"营养代餐","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"}
+					 ],
+				"submenu":[
+							{	
+								"tit_left":"茶","href_left":"",
+								"item_left":[
+												{"val":"配方奶粉","href":""}
+											],
+								"tit_right":"咖啡","href_right":"",
+								"item_right":[
+												{"tit":"配方奶粉","href":""}
+											]
+							}
+						  ]
+			},
+			{ 
+				"title":"儿童玩具", "icon":"etwanju","color":"#11ccaa",
+				"href":"http://www.haituncun.com/ymuyin/",
+				"img" :"",
+				"trademark_title" : "热门品牌",
+				"trademark_list" : [
+						{"src":"","href":""},
+						{"src":"","href":""},
+						{"src":"","href":""},
+						{"src":"","href":""},
+						{"src":"","href":""},
+						{"src":"","href":""}
+				],
+				"dl":[
+					{"tit":"毛绒玩具","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"}
+				],
+				"submenu":[
+							{	
+								"tit_left":"毛绒玩具","href_left":"",
+								"item_left":[
+												{"val":"配方奶粉","href":""}
+											],
+								"tit_right":"益智玩具","href_right":"",
+								"item_right":[
+												{"tit":"配方奶粉","href":""}
+											]
+							}
+				]
+			}
+		]
+	}
+}

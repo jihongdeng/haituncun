@@ -1,7 +1,6 @@
 body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
-body{font:12px "宋体","Arial Narrow",HELVETICA;background:#fff;}
-a{color:#172c45;text-decoration:none} 
-a:hover{color:#cd0200;text-decoration:underline} 
+a{color:#172c45;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:underline}
 em{font-style:normal}
 li{list-style:none}
 img{border:0;vertical-align:middle} 
@@ -10,3 +9,23 @@ p{word-wrap:break-word}
 .ind{text-indent:2em} 
 .ind10{text-indent:10px;}
 .noborder{border:0;}
+.left{float:left;display:inline;}
+.right{float:right;display:inline;}
+.grid-all{margin:0 auto;width:1190px;};
+.icon{display:block;};
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+};
+.clearfix:after {
+    clear: both;
+};
+.dib-wrap {
+    font-size: 0;
+    .dib {
+    font-size: 12px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+	}
+}

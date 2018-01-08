@@ -1,1 +1,1 @@
-"use strict";require(["config"],function(){require(["load"],function(){console.log("list")})});
+"use strict";require(["config"],function(){require(["load"],function(){console.log("list.js")})});

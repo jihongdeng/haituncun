@@ -1,7 +1,7 @@
 require.config({
 	baseUrl : "/", 
 	paths : {
-		"jquery" : ["https://code.jquery.com/jquery-1.12.4.min", "lib/jquery/jquery-1.12.4.min"],
+		"jquery" : [ "lib/jquery/jquery-1.12.4.min","https://code.jquery.com/jquery-1.12.4.min"],
 		"template" : "lib/arttemplate/template",
 		"cookie" : "lib/jquery_plugins/jquery.cookie",
 		"fly" : "lib/jquery_plugins/jquery.fly.min",
@@ -20,6 +20,9 @@ require.config({
 			deps : ["jquery"]
 		},
 		"zoom" : {
+			deps : ["jquery"]
+		},
+		"template" : {
 			deps : ["jquery"]
 		},
 		"cookie" : {

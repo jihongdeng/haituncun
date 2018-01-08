@@ -1,7 +1,142 @@
 <div class="topber">
-
+	<div class="header-topber-info  grid-all">
+		<p class="left">
+			您好,
+			<span id="customerName"></span>
+			欢迎来到海豚村
+			<a class="inform" href=""></a>
+		</p>
+		<div class="right q-access">
+			<ul>
+				<li calss="login-link"><a href="/html/login.html">登录</a></li>
+				<li>丨</li>
+				<li calss="reg-link"><a href="/html/register.html">注册</a></li>
+				<li>丨</li>
+				<li calss="nobile"><a href="javescript:void(0);">手机版
+					<div class="top-appcode"></div></a></li>
+				<li>丨</li>
+				<li calss="weibo"><a href="http://weibo.com/haituncun">关注</a></li>
+				<li>丨</li>
+				<li class="livesvc"><a href="">在线客服</a></li>
+				<li>丨</li>
+				<li class="advice-note"><a href="http://www.haituncun.com/new/helper/notification/">消费者告知书</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
 <div class="header">
-
+	<div class="grid-all">
+		<div class="left">
+			<a href="/html/index.html" class="logo">海豚村海淘网站---海外直邮购物</a>
+		</div>
+		<a class="svc-cmt" title="服务承诺" href="http://www.haituncun.com/helper/faq/service-commitment/">服务承诺</a>
+		<form action="" id="top-search-form">
+			<div class="left">
+				<input type="text" class="search" placeholder="略.."/>
+				<input type="submit" class="btn-submit" value="搜索"/>
+			</div>
+		</form>
+		<div class="right">
+			<a href="" class="top-cart">
+				购物车
+				<b id="cart-Count">0</b>
+			</a>
+		</div>
+	</div>
 </div>
-<div class="navgation"></div>
+<div class="navgation">
+	<div class="grid-all">
+		<div class="left kind-drop">
+			<h3>
+				<i class="icon icon-list"></i>
+				全部商品分类
+			</h3>
+			<ul class="header-menu">
+				<script type="text/html" id="menu_template">
+					{{each products as prod}}
+						<li class="parent {{prod.icon}}_p" 
+						onmouseenter="this.style.cssText='border-left:5px solid {{prod.color}};'" onmouseleave="this.style.cssText='border-left:5px solid #f1fafd;'">
+							<div class="p-menu">
+								<h2 class="{{prod.icon}}">
+									<i class="icon" style="background:url('/images/load/{{prod.icon}}.png') no-repeat;"></i>
+									<a href="{{prod.href}}">{{prod.title}}</a>
+								</h2>
+								<ul class="child clearfix dib-wrap">
+									{{each prod.dl as tit_li}}
+										<li class="dib">
+											<a href="{{tit_li.href}}">
+												{{tit_li.tit}}
+											</a>
+										</li>
+									{{/each}}
+								</ul>
+							</div>
+							<div class="hidepop">
+								<div class="submenu-list">
+									{{each prod.submenu as subdata}}
+										<div class="submenu-itemwrap clearfix">
+											<dl class="submenu-item">
+												<dt>
+													<a href="{{subdata.href_left}}">
+														{{subdata.tit_left}}
+													</a>
+												</dt>
+												<dd class="clearfix">
+													{{each subdata.item_left as item}}
+														<a href="{{item.href}}" target="_blank" class="submenu-link">{{item.val}}</a>
+													{{/each}}
+												</dd>
+											</dl>
+											<dl class="submenu-item">
+												<dt>
+													<a href="{{subdata.href_right}}">
+														{{subdata.tit_right}}
+													</a>
+												</dt>
+												<dd class="clearfix">
+													{{each subdata.item_right as item}}
+														<a href="{{item.href}}" target="_blank" class="submenu-link">{{item.val}}</a>
+													{{/each}}
+												</dd>
+											</dl>
+										</div>
+									{{/each}}
+								</div>
+								<div class="sub-side">
+									<a href="" class="single" target="_blank">
+										<img src="{{prod.img}}" width="160px" height="180px">
+									</a>
+									<div class="trademark">
+										<h3 class="trademark-title">
+											<i class="line-left"></i>
+											<i class="line-right"></i>
+											<span>{{prod.trademark_title}}</span>
+										</h3>
+										<div class="trademark-list clearfix">
+											{{each prod.trademark_list as trademark}}
+											<a href="{{trademark.href}}" target="_blank" class="trademark-item">
+												<img src="{{trademark.src}}" width="74" height="42">
+											</a>
+											{{/each}}
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						
+					{{/each}}
+				</script>
+			</ul>
+		</div>
+		<ul class="left main-list">
+			<li class="item"><a href="/index.html">首页</a></li>
+			<li class="item"><a href="">全球精品</a></li>
+			<li class="item"><a href="">全球精选</a></li>
+			<li class="item"><a href="">全球商家</a></li>
+			<li class="item"><a href="">欧洲</a></li>
+			<li class="item"><a href="">澳洲</a></li>
+			<li class="item"><a href="">亚洲</a></li>
+			<li class="item upbuy"><a href=""></a></li>
+		</ul>
+	</div>
+</div>

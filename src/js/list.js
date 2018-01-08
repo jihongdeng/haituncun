@@ -1,5 +1,5 @@
 require(["config"], function(){
 	require(["load"], function(){
-		console.log("list");
+		console.log("list.js");
 	})
 });
