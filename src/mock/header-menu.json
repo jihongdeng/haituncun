@@ -4,7 +4,7 @@
 	"res_body" : {
 		"data" : [
 			{
-				"title":"母婴用品", "icon":"muyinyp","color":"#ff5555",
+				"title":"母婴用品", "icon":"icon-yingerchesolid","color":"#ff5555",
 				"trademark_title":"热门品牌",
 				"href":"http://www.haituncun.com/ymuyin/",
 				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/muyin160513.jpg",
@@ -81,7 +81,7 @@
 				
 			},
 			{ 
-				"title":"营养保健", "icon":"yybaoj","color":"#66cc33",
+				"title":"营养保健", "icon":"icon-yaofang","color":"#66cc33",
 				"href":"http://www.haituncun.com/ymuyin/",
 				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/yinyang170314.jpg",
 				"trademark_title" : "热门品牌",
@@ -112,7 +112,7 @@
 						  ]
 			},
 			{ 
-				"title":"美容药妆", "icon":"meiryz","color":"#ff44aa",
+				"title":"美容药妆", "icon":"icon-baojianpin","color":"#ff44aa",
 				"href":"http://www.haituncun.com/ymuyin/",
 				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/meizhuang170309.jpg",
 				"trademark_title" : "热门品牌",
@@ -143,7 +143,7 @@
 						  ]
 			},
 			{ 
-				"title":"个人护理", "icon":"grhuli","color":"#8833ee",
+				"title":"个人护理", "icon":"icon-lipstick","color":"#8833ee",
 				"href":"http://www.haituncun.com/ymuyin/",
 				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/gehu170314.jpg",
 				"trademark_title" : "热门品牌",
@@ -174,7 +174,7 @@
 						  ]
 			},
 			{ 
-				"title":"家居厨卫", "icon":"jjchuwei","color":"#cc6644",
+				"title":"家居厨卫", "icon":"icon-canjuchangshi","color":"#cc6644",
 				"href":"http://www.haituncun.com/ymuyin/",
 				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/chuwei170314.jpg",
 				"trademark_title" : "热门品牌",
@@ -206,7 +206,7 @@
 						  ]
 			},
 			{ 
-				"title":"食品精选", "icon":"shipjx","color":"#ffaa33",
+				"title":"食品精选", "icon":"icon-ii","color":"#ffaa33",
 				"href":"http://www.haituncun.com/ymuyin/",
 				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/shipin170314.jpg",
 				"trademark_title" : "热门品牌",
@@ -237,7 +237,7 @@
 						  ]
 			},
 			{ 
-				"title":"儿童玩具", "icon":"etwanju","color":"#11ccaa",
+				"title":"儿童玩具", "icon":"icon-ertongwanju","color":"#11ccaa",
 				"href":"http://www.haituncun.com/ymuyin/",
 				"img" :"",
 				"trademark_title" : "热门品牌",

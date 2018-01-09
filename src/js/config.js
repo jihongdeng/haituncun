@@ -7,11 +7,6 @@ require.config({
 		"fly" : "lib/jquery_plugins/jquery.fly.min",
 		"zoom" : "lib/jquery_plugins/jquery.elevateZoom-3.0.8.min",
 		"load" : "js/loadHeaderFooter",
-		"register" : "js/register",
-		"login" : "js/login",
-		"index" : "js/index",
-		"list" : "js/list",
-		"cart" : "js/cart",
 		"confirm" : "js/confirm",
 		"detail" : "js/detail"
 	},

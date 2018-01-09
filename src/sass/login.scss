@@ -1,1 +1,70 @@
-body{border:1px solid red;}
+.header-container{
+	.topber{
+		height:29px;
+		line-height:29px;
+		border-bottom:1px solid #eee;
+		background:#fafafa;
+		color:#787878;
+		font-size:11px;
+		.header-topber-info{height:29px;width:990px;};
+		.q-access{
+			position:relative; 
+			li{
+				float:left;padding:0 4px;
+			};
+			.top-appcode{
+				display:none;
+				z-index:40;
+				width:166px;height:200px;background:url("/images/load/nobile.jpg") center top no-repeat;
+				position:absolute;right:166px;top:30px;
+			};
+			a:hover{color:#009bde;};
+			a:hover div.top-appcode{display:block;}	
+		}
+	};
+	.header{
+		height:108px;
+		background:#fff;
+		.grid-all{height:84px;width:990px;
+			.logo{
+				width:306px;height:64px;display:block;text-indent:-9999em;
+				background:url("/images/load/logo.jpg") center top no-repeat;
+				margin-top:20px;
+			};
+			.svc-cmt{
+				display:block;width:296px;height:32px;text-indent:-9999em;
+				background:url("/images/load/svc-cmt.jpg") center top no-repeat;
+				float:right;margin-top:35px;
+			};
+		};
+	};
+};	
+.main-container{
+	height:630px;
+	width:100%;
+	background:#79dafa;
+	
+	.main{
+		height:630px;
+		width:990px;
+		margin:0 auto;
+	   padding-top:90px;
+	   position:relative;
+	}
+	.login-form-container{
+		width:400px;
+		position:absolute;
+		left:590px;top:90px;
+		background:#fff;
+		.form-header{
+			height: 28px;
+		    padding-top: 22px;
+		    padding-right: 30px;
+		    padding-left: 30px;
+			h1{font-size:19px;color:#666668;display:inline;}
+			span{float:right;color:#020001;font-size:13px;line-height:28px;
+				a{color:#01a3ec;}
+			}
+		}
+	}
+}
