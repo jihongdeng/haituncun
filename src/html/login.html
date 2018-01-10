@@ -4,6 +4,7 @@
 	<meta charset="UTF-8"/>
 	<title>登陆</title>
 	<link rel="stylesheet" href="/css/public.css">
+	<link rel="stylesheet" type="text/css" href="/images/icon/load/iconfont.css">
 	<link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
@@ -53,23 +54,47 @@
 						<a class="go-logon" href="http://localhost/html/login.html">立即注册>></a>	
 					</span>
 				</div>
-				<form id="login-form">
-					<div class="inner">
+				<form id="form-login">
 						<div class="form-alert"></div>
-						<div class="form-group htc-require"></div>
-						<div class="form-change"></div>
-						<div class="form-group htc-require"></div>
-						<div class="form-group htc-require"></div>
-						<div class="form-group htc-require "></div>
-
-					</div>	
+						<div class="form-group">
+							<div><img src="/images/load/renwu.jpg"></div>
+							<input type="text" id="uname" class="form-text" placeholder="请输入手机号"/>
+							<img src="/images/load/del.jpg" class="input-del">
+							<span class="input-error"></span>
+						</div>
+						<div class="form-group">
+							<div><img src="/images/load/suo.jpg"></div>
+							<input type="password" id="pwd" class="form-text" placeholder="密码"></input>
+							<img src="/images/load/del.jpg" class="input-del">
+							<span class="input-error"></span>
+						</div>
+						<div class="form-group check-group">
+							<input type="checkbox" id="pAgree" checked="checked" name="agree"  class="hidden"/>
+							<div class="check-icon-container">
+								<i class="iconfont icon-check-box" id="check-icon"></i>
+							</div>
+							<label class="check-box" for="pAgree">记住用户名</label>
+							<a href="http://www.haituncun.com/o_customer/security/findpwdpage/" target="_blank">忘记密码？</a>
+						</div>
+						<div class="form-group">
+							<button id="login-btn">登陆</button>
+						</div>
 				</form>
+				<div class="form-footer">
+					<span>快捷登陆方式:</span>
+					<a href=""></a>
+				<div>
 			</div>
 		</div>
 	</div>
-	<div class="footer-container">
-
 	</div>
-	<script src="lib/requirejs/require.js" data-main="js/index"></script>
+	</div>
+	<div class="footer-container">
+		<div class="copyright">
+			<span>"COPYRIGHT © 2013-2018 All Rights Reserved. "</span>
+			<a href="http://www.miitbeian.gov.cn" rel="nofollow" target="_blank" style="text-decoration: none;color: #999;">粤ICP备 13081207号</a>
+		</div>
+	</div>
+	<script src="/lib/requirejs/require.js" data-main="/js/login"></script>
 </body>
 </html>
