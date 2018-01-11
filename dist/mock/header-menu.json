@@ -6,7 +6,7 @@
 			{
 				"title":"母婴用品", "icon":"icon-yingerchesolid","color":"#ff5555",
 				"trademark_title":"热门品牌",
-				"href":"http://www.haituncun.com/ymuyin/",
+				"href":"http://localhost:8080/html/list.html",
 				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/muyin160513.jpg",
 				
 				"trademark_list" : [
@@ -18,23 +18,23 @@
 						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/MYYP_06160513.jpg","href":"http://www.haituncun.com/ymuyin/f-brand891.html"}
 				],
 				"dl":[ 
-						{"tit":"配方奶粉","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
-						{"tit":"营养辅食","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
-						{"tit":"洗护用品","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"}
+						{"tit":"配方奶粉","href":"http://localhost:8080/html/list.html"},
+						{"tit":"营养辅食","href":"http://localhost:8080/html/list.html"},
+						{"tit":"洗护用品","href":"http://localhost:8080/html/list.html"}
 				],
 				"submenu":[
 							{	
 								"tit_left":"奶粉辅食","href_left":"",
 								"item_left":[
-												{"val":"配方奶粉","href":""},
-												{"val":"特殊奶粉","href":""},
-												{"val":"羊奶粉","href":""},
-												{"val":"米粉/菜奶","href":""},
-												{"val":"果泥/果汁","href":""},
-												{"val":"菜泥/肉泥","href":""},
-												{"val":"面条/粥","href":""},
-												{"val":"通心粉","href":""},
-												{"val":"宝宝零食","href":""}
+												{"val":"配方奶粉","href":"http://localhost:8080/html/list.html"},
+												{"val":"特殊奶粉","href":"http://localhost:8080/html/list.html"},
+												{"val":"羊奶粉","href":"http://localhost:8080/html/list.html"},
+												{"val":"米粉/菜奶","href":"http://localhost:8080/html/list.html"},
+												{"val":"果泥/果汁","href":"http://localhost:8080/html/list.html"},
+												{"val":"菜泥/肉泥","href":"http://localhost:8080/html/list.html"},
+												{"val":"面条/粥","href":"http://localhost:8080/html/list.html"},
+												{"val":"通心粉","href":"http://localhost:8080/html/list.html"},
+												{"val":"宝宝零食","href":"http://localhost:8080/html/list.html"}
 											],
 								"tit_right":"喂养用品","href_right":"",
 								"item_right":[
@@ -82,7 +82,7 @@
 			},
 			{ 
 				"title":"营养保健", "icon":"icon-yaofang","color":"#66cc33",
-				"href":"http://www.haituncun.com/ymuyin/",
+				"href":"http://localhost:8080/html/list.html",
 				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/yinyang170314.jpg",
 				"trademark_title" : "热门品牌",
 				"trademark_list" : [
@@ -113,7 +113,7 @@
 			},
 			{ 
 				"title":"美容药妆", "icon":"icon-baojianpin","color":"#ff44aa",
-				"href":"http://www.haituncun.com/ymuyin/",
+				"href":"http://localhost:8080/html/list.html",
 				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/meizhuang170309.jpg",
 				"trademark_title" : "热门品牌",
 				"trademark_list" : [
@@ -144,7 +144,7 @@
 			},
 			{ 
 				"title":"个人护理", "icon":"icon-lipstick","color":"#8833ee",
-				"href":"http://www.haituncun.com/ymuyin/",
+				"href":"http://localhost:8080/html/list.html",
 				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/gehu170314.jpg",
 				"trademark_title" : "热门品牌",
 				"trademark_list" : [
@@ -156,9 +156,9 @@
 						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/GRHL_06170314.jpg","href":""}
 				],
 				"dl":[
-						{"tit":"洗发护发","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
-						{"tit":"淋浴用品","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
-						{"tit":"牙膏","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"}
+						{"tit":"洗发护发","href":"http://localhost:8080/html/list.html"},
+						{"tit":"淋浴用品","href":"http://localhost:8080/html/list.html"},
+						{"tit":"牙膏","href":"http://localhost:8080/html/list.html"}
 					 ],
 				"submenu":[
 							{	
@@ -175,7 +175,7 @@
 			},
 			{ 
 				"title":"家居厨卫", "icon":"icon-canjuchangshi","color":"#cc6644",
-				"href":"http://www.haituncun.com/ymuyin/",
+				"href":"http://localhost:8080/html/list.html",
 				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/chuwei170314.jpg",
 				"trademark_title" : "热门品牌",
 				"trademark_list" : [
@@ -187,9 +187,9 @@
 						{"src":"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Logo/JJCW_06170314.jpg","href":""}
 				],
 				"dl":[
-						{"tit":"精品梳","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
-						{"tit":"滤水壶","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
-						{"tit":"清洁用品","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"}
+						{"tit":"精品梳","href":"http://localhost:8080/html/list.html"},
+						{"tit":"滤水壶","href":"http://localhost:8080/html/list.html"},
+						{"tit":"清洁用品","href":"http://localhost:8080/html/list.html"}
 					 ],
 				"submenu":[
 							{	
@@ -207,7 +207,7 @@
 			},
 			{ 
 				"title":"食品精选", "icon":"icon-ii","color":"#ffaa33",
-				"href":"http://www.haituncun.com/ymuyin/",
+				"href":"http://localhost:8080/html/list.html",
 				"img" :"http://assets.haituncun.com/media/wysiwyg/New_HomePage/Menu/Fenlei/shipin170314.jpg",
 				"trademark_title" : "热门品牌",
 				"trademark_list" : [
@@ -220,7 +220,7 @@
 				],
 				"dl":[
 						{"tit":"功能茶","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
-						{"tit":"果泥果汁","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"},
+						{"tit":"果泥果汁","href":"http://localhost:8080/html/list.html"},
 						{"tit":"营养代餐","href":"http://www.haituncun.com/ymuyin/ynaiffs/ypeifnf/"}
 					 ],
 				"submenu":[
@@ -238,7 +238,7 @@
 			},
 			{ 
 				"title":"儿童玩具", "icon":"icon-ertongwanju","color":"#11ccaa",
-				"href":"http://www.haituncun.com/ymuyin/",
+				"href":"http://localhost:8080/html/list.html",
 				"img" :"",
 				"trademark_title" : "热门品牌",
 				"trademark_list" : [

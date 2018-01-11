@@ -1,1 +1,166 @@
-{}
+{
+	"res_code" : 0,
+	"res_error" : "",
+	"res_body" : {
+		"header" : [{"tier": "主页"},{"tier": "母婴用品"},{"tier": "奶粉辅食"},{"tier": "配方奶粉"}],
+		"data" : [
+				{	
+					"id" : 1 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/_/2/_2_aptamil-_2_6-12m_-900g.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件装】Aptamil 英国爱他美 婴幼儿配方奶粉2段（6-12m） ",
+					"weight" : "900g/罐" ,
+					"state" : "营养均衡 防止宝宝偏食",
+					"price0" : "￥",
+					"price1" : "270",
+					"price2" : ".60",
+					"origin" : "英国TLC药店连锁",
+					"img" :  "/images/load/yiguo.jpg"
+				},
+				{	
+					"id" : 2 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/_/2/_2_cow_gate-_1_0-6m_-900g.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件装】Cow&Gate 英国牛栏 婴儿配方奶粉1段（0-6m） ",
+					"weight" : "900g" ,
+					"state" : "英国最受欢迎的品牌",
+					"price0" : "￥",
+					"price1" : "240",
+					"price2" : ".50",
+					"origin" : "英国TLC药店连锁",
+					"img" :  "/images/load/yiguo.jpg"
+				},{	
+					"id" : 3 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/_/2/_2_cow_gate_0-6m_-900g.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件装】Cow&Gate 英国牛栏 抗饿配方婴儿奶粉（0-6m） ",
+					"weight" : "900g" ,
+					"state" : "优质奶源 有机更健康",
+					"price0" : "￥",
+					"price1" : "260",
+					"price2" : ".60",
+					"origin" : "英国TLC药店连锁",
+					"img" :  "/images/load/yiguo.jpg"
+				},{	
+					"id" : 4 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/a/t/atpdebbya0010005x2.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件装】Aptamil 德国爱他美幼儿益生元配方奶粉1+段(1岁+) ",
+					"weight" : "600g" ,
+					"state" : "满足宝宝全面营养",
+					"price0" : "￥",
+					"price1" : "389",
+					"price2" : ".49",
+					"origin" : "德国BA保镖药房",
+					"img" :  "/images/load/deguo.jpg"
+				},{	
+					"id" : 5 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/a/p/aptbebbya0010002x2_1.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件装】Milupa Aptamil Profutura 1 爱他美白金版婴儿配方奶粉 1段 （0-6个月）",
+					"weight" : "2*800g/罐" ,
+					"state" : "贵族奶粉 白金呈现",
+					"price0" : "￥",
+					"price1" : "581",
+					"price2" : ".51",
+					"origin" : "德国BA保镖药房",
+					"img" :  "/images/load/deguo.jpg"
+				},{	
+					"id" : 6 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/h/i/hipdebbya0010017x2_1.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件包邮装】Hipp 喜宝 有机配方奶粉 3段 （10个月以上）",
+					"weight" : "2*800g/罐" ,
+					"state" : "优质奶源 有机更健康",
+					"price0" : "￥",
+					"price1" : "269",
+					"price2" : ".78",
+					"origin" : "自营荷兰1号仓",
+					"img" :  "/images/load/helan.jpg"
+				},{	
+					"id" : 7 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/h/i/hipdebbya0010017x2_1.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件装】S-26 澳洲惠氏原装进口婴儿1段奶粉 （0-6个月的宝宝）",
+					"weight" : "900克" ,
+					"state" : "口感清淡 奶味香醇",
+					"price0" : "￥",
+					"price1" : "257",
+					"price2" : ".14",
+					"origin" : "澳洲PO药品连锁店",
+					"img" :  "/images/load/aozhou.jpg"
+				},{	
+					"id" : 1 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/_/2/_2_aptamil-_2_6-12m_-900g.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件装】Aptamil 英国爱他美 婴幼儿配方奶粉2段（6-12m） ",
+					"weight" : "900g/罐" ,
+					"state" : "营养均衡 防止宝宝偏食",
+					"price0" : "￥",
+					"price1" : "270",
+					"price2" : ".60",
+					"origin" : "英国TLC药店连锁",
+					"img" :  "/images/load/yiguo.jpg"
+				},
+				{	
+					"id" : 2 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/_/2/_2_cow_gate-_1_0-6m_-900g.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件装】Cow&Gate 英国牛栏 婴儿配方奶粉1段（0-6m） ",
+					"weight" : "900g" ,
+					"state" : "英国最受欢迎的品牌",
+					"price0" : "￥",
+					"price1" : "240",
+					"price2" : ".50",
+					"origin" : "英国TLC药店连锁",
+					"img" :  "/images/load/yiguo.jpg"
+				},{	
+					"id" : 3 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/_/2/_2_cow_gate_0-6m_-900g.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件装】Cow&Gate 英国牛栏 抗饿配方婴儿奶粉（0-6m） ",
+					"weight" : "900g" ,
+					"state" : "优质奶源 有机更健康",
+					"price0" : "￥",
+					"price1" : "260",
+					"price2" : ".60",
+					"origin" : "英国TLC药店连锁",
+					"img" :  "/images/load/yiguo.jpg"
+				},{	
+					"id" : 4 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/a/t/atpdebbya0010005x2.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件装】Aptamil 德国爱他美幼儿益生元配方奶粉1+段(1岁+) ",
+					"weight" : "600g" ,
+					"state" : "满足宝宝全面营养",
+					"price0" : "￥",
+					"price1" : "389",
+					"price2" : ".49",
+					"origin" : "德国BA保镖药房",
+					"img" :  "/images/load/deguo.jpg"
+				},{	"id" : 5 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/a/p/aptbebbya0010002x2_1.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件装】Milupa Aptamil Profutura 1 爱他美白金版婴儿配方奶粉 1段 （0-6个月）",
+					"weight" : "2*800g/罐" ,
+					"state" : "贵族奶粉 白金呈现",
+					"price0" : "￥",
+					"price1" : "581",
+					"price2" : ".51",
+					"origin" : "德国BA保镖药房",
+					"img" :  "/images/load/deguo.jpg"
+				},{	
+					"id" : 6 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/h/i/hipdebbya0010017x2_1.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件包邮装】Hipp 喜宝 有机配方奶粉 3段 （10个月以上）",
+					"weight" : "2*800g/罐" ,
+					"state" : "优质奶源 有机更健康",
+					"price0" : "￥",
+					"price1" : "269",
+					"price2" : ".78",
+					"origin" : "自营荷兰1号仓",
+					"img" :  "/images/load/helan.jpg"
+				},{	
+					"id" : 7 ,
+					"src" : "https://assets.haituncun.com/media/catalog/product/h/i/hipdebbya0010017x2_1.jpg?imageView2/0/w/206/h/206",
+					"title" : "【2件装】S-26 澳洲惠氏原装进口婴儿1段奶粉 （0-6个月的宝宝）",
+					"weight" : "900克" ,
+					"state" : "口感清淡 奶味香醇",
+					"price0" : "￥",
+					"price1" : "257",
+					"price2" : ".14",
+					"origin" : "澳洲PO药品连锁店",
+					"img" :  "/images/load/aozhou.jpg"
+				}
+		
+		]
+	}
+}

@@ -2,19 +2,55 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8"/>
-	<title>首页</title>
+	<title>购物车</title>
 	<link rel="stylesheet" href="/css/public.css">
+	<link rel="stylesheet" type="text/css" href="/images/icon/load/iconfont.css">
 	<link rel="stylesheet" href="/css/loadHeaderFooter.css">
-	<link rel="stylesheet" href="/css/index.css">
+	<link rel="stylesheet" href="/css/cart.css">
 </head>
 <body>
 	<div class="header-container"></div>
 	<div class="main-container">
-		<div class="main clearfix">
-			
+		<div class="main clearfix grid-all">
+			<div class="cart_title">
+				<div><label><input type="checkbox" class="ck_all">全选</label></div>	
+				<div class="img">商品</div>
+				<div class="title">标题</div>
+				<div class="weight">重量</div>
+				<div class="price">单价(元)</div>
+				<div class="amount">数量</div>
+				<div class="sub">小计(元)</div>
+				<div class="oper">操作</div>
+			</div>
+			<div class="cart_body">
+				
+			</div>
+			<div class="total grid-all">
+				<div class="btn-pay">去结算</div>
+				<div class="tatol-num">
+					合计：<span class="money">0.00</span> 元
+				</div>
+
+			</div>
+
+			<script type="text/html" id="cart_template">
+				{{each products as product}}
+				<div class="product">
+					<div class="ck"><input type="checkbox" class="ck_product"></div>
+					<div class="id" style="display: none;">{{product.id}}</div>	
+					<div class="img"><img src="{{product.img}}" style="width:90px; height:80px;"></div>
+					<div class="title"><h2>{{product.title}}</h2></div>
+					<div class="weight">{{product.weight}}</div>
+					<div class="price">￥{{product.price}}</div>
+					<div class="amount"><span class="add">+</span><input type="text" class="amount_num" value="{{product.amount}}" style="width:40px; text-align: center;"><span class="minus">-</span></div>
+					<div class="sub">{{(product.price * product.amount).toFixed(2)}}</div>
+					<div class="oper"><a href="javascript:void(0)" class="del">删除</a></div>
+				</div>
+				{{/each}}
+			</script>
 		</div>
 	</div>
 	<div class="footer-container"></div>
-	<script src="lib/requirejs/require.js" data-main="js/index"></script>
+	<script src="/lib/requirejs/require.js" data-main="/js/cart"></script>
 </body>
 </html>

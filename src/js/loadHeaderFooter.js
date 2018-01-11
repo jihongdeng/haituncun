@@ -21,7 +21,11 @@ define(["jquery", "template","cookie" ], function($,template){
 			}
 		});
 	}).done(function(){
-		
+		var uname = $.cookie("username")
+		if(uname){
+			$(".login-link a").text("我的订单");
+			$(".reg-link a").text("用户中心");
+		}
 			
 		
 	});

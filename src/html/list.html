@@ -11,28 +11,62 @@
 <body>
 	<div class="header-container"></div>
 	<div class="main-container">
+		<script type="text/html" id="main_template">
 			<div class="main clearfix">
-				<div class="clearfix">
-				<ul class="main-header">
-					<li><img src=""></li>
-					<li>首页</li>
-					<li>></li>
-					<li>母婴用品</li>
-					<li>></li>
-					<li>奶粉辅食</li>
-					<li>></li>
-					<li>配方奶粉</li>
+				<ul class="main-header clearfix">
+					<li><img src="/images/load/home.jpg"></li>
+					{{each products.header as title}}
+						<li>><a>{{title.tier}}</a></li>
+					{{/each}}
+					
 				</ul>
-				</div>
+				<div class="left clearfix mian-left"></div>	
+				<div class="right clearfix main-right">
+					 <div class="list-container clearfix">
+					 		<ul class="list-title">
+					 			<li><a>推荐</a></li>
+					 			<li><a>价格</a></li>
+					 			<li><a>最新上架</a></li>
+					 			<li><a>最佳销量</a></li>
+					 			<li class="next"><a>下一页</a></li>
+					 		</ul>
+					 		<ul class="list-context list_context clearfix">
+					 			{{each products.data as li_prod}}
+					 			<li>
+					 				<div class="list-context">
+					 					<div class="li_id">{{li_prod.id}}</div>
+					 					<a class="list-link">
+					 						<img src="{{li_prod.src}}"/>
+					 					</a>
+					 					<span class="list-price">
+					 							<b class="b-min">{{li_prod.price0}}</b>
+					 							<b class="b-max">{{li_prod.price1}}</b>
+					 							<b class="b-min1">{{li_prod.price2}}</b>
+					 					</span>
+						 				<h2><span>{{li_prod.title}}</span>
+						 					<span>{{li_prod.weight}}</span>
+						 					<span class="span_red">{{li_prod.state}}</span>
+						 				</h2>
+					 					
+					 					<div class="btn-cart">
+					 						加入购物车
+					 					</div>
 
+					 					<div class="list-footer">
+					 						<span>{{li_prod.origin}}<span>
+					 						<div class="guoqi">
+					 							<img src="{{li_prod.img}}"/>
+					 						</div>
 
-
-
-
-
-
-			
+					 					</div>
+					 				</div>
+					 			</li>
+					 			{{/each}}
+					 		</ul>
+					 </div>			
+				</div>	
 			</div>
+		</script>
 	</div>
 	<div class="footer-container"></div>
 	<script src="/lib/requirejs/require.js" data-main="/js/list.js"></script>
